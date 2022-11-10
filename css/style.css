@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 16px;
+    background-color: #EDECE9;
+    font-family: 'Roboto', sans-serif ;
+    
+}
+main{
+    margin-left:  15px; 
+}
+
+
+.banner-container img{
+    height: 700px;
+    margin-bottom: 10px;
+    width: 100%;
+    
+}
+
+.banner .banner-container{
+    height: 350px;
+}
+
+.nav-link, a:visited, a:link{
+    color: #EF691B ;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    
+}
+
+.nav-link  li{
+    margin: 16px;
+    list-style: none;
+}
+.h1-conoce{
+    color: #8C5F4E;
+    margin: 20px 0;
+    
+    
+}
+
+.h2-general {
+ background-color: #775548;
+ margin: 0;
+ margin-bottom: 10px;
+ color:#E4D8D3;
+ font-size: 25px;
+ font-weight: 500;
+}
+
+.li-bold{
+    font-weight: bold;
+}
+
+.section-li{
+    padding-left: 50px;
+    color: #775548;
+    margin-bottom: 10px;
+}
+
+.flex-p-carpas{
+    display: flex;
+}
+.flex-p-carpas p{
+    margin-left: 10px;
+}
+
+.li-nacion a:visited, a:link{
+    color: #3CA9C3;
+    font-weight: bold;
+}
+.li-pag12 a:visited, a:link{
+    color: #EF444D;
+    font-weight: bold;
+}
+
+main a {
+    width: fit-content;
+}
+
+.flex-prosegur{
+    display: flex;
+}
+
+.flex-prosegur li {
+    display: flex;
+    list-style: circle;
+    
+}
+.flex-prosegur a{
+    margin-left: 10px;
+}
+
+.p-li{
+    color: #775548;
+}
+
+.h2-elegirnos{
+    color: #CAAA3B;
+}
