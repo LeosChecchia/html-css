@@ -107,3 +107,8 @@ main a {
 .h2-elegirnos{
     color: #CAAA3B;
 }
+
+.div-li-end {
+    padding-left: 50px;
+    /* border-left: 100px; */
+}
