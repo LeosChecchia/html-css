@@ -16,11 +16,15 @@ main{
     margin-left:  15px; 
 }
 
+img{
+    object-fit: cover;
+}
 
 .banner-container img{
-    height: 700px;
+    
     margin-bottom: 10px;
     width: 100%;
+    
     
 }
 
@@ -28,7 +32,12 @@ main{
     height: 350px;
 }
 
-.nav-link, a:visited, a:link{
+.nav-link  li {
+    margin: 16px;
+    list-style: none;
+}
+
+.nav-link , a:visited , a:link{
     color: #EF691B ;
     display: flex;
     flex-direction: row;
@@ -37,10 +46,7 @@ main{
     
 }
 
-.nav-link  li{
-    margin: 16px;
-    list-style: none;
-}
+
 .h1-conoce{
     color: #8C5F4E;
     margin: 20px 0;
